@@ -25,3 +25,6 @@ Principais Benefícios
 
  Threat Hunting → Events → filtre rule.id:100601 ou rule.id:100602
 - MISP → https://192.168.0.10/events
+
+<img width="938" height="842" alt="image" src="https://github.com/user-attachments/assets/af671d2e-79c1-4f4b-9732-b55651ab0e2d" />
+
