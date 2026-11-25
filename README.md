@@ -26,5 +26,15 @@ Principais Benefícios
  Threat Hunting → Events → filtre rule.id:100601 ou rule.id:100602
 - MISP → https://192.168.0.10/events
 
-<img width="938" height="842" alt="image" src="https://github.com/user-attachments/assets/af671d2e-79c1-4f4b-9732-b55651ab0e2d" />
+**Log Wazuh**
+<img width="938" height="842" alt="image" src="https://github.com/user-attachments/assets/af671d2e-79c1-4f4b-9732-b55651ab0e2d" /> 
 
+{"session":"a926bfca50db","protocol":"ssh","src_ip":"192.168.0.20","src_port":48682,"dst_ip":"192.168.0.10","dst_port":2222,"username":"root","password":"teste","eventid":"cowrie.login.failed","sensor":"misp","uuid":"d74128ea-e868-11f1-8749-000c2980792f","timestamp":"2026-11-25T12:16:32.699121Z","message":"login attempt [root/teste] failed"}
+{"session":"6d2fb371bc4d","protocol":"ssh","src_ip":"192.168.0.20","src_port":48678,"dst_ip":"192.168.0.10","dst_port":2222,"username":"root","password":"teste5","eventid":"cowrie.login.failed","sensor":"misp","uuid":"d74128ea-e868-11f1-8749-000c2980792f","timestamp":"2026-11-25T12:16:30.307195Z","message":"login attempt [root/teste5] failed"}
+{"session":"fcca092b4b2e","protocol":"ssh","src_ip":"192.168.0.20","src_port":48672,"dst_ip":"192.168.0.10","dst_port":2222,"username":"root","password":"teste2","eventid":"cowrie.login.failed","sensor":"misp","uuid":"d74128ea-e868-11f1-8749-000c2980792f","timestamp":"2026-11-25T12:16:27.532927Z","message":"login attempt [root/teste2] failed"}
+{"session":"6d5215d94aa7","protocol":"ssh","src_ip":"192.168.0.20","src_port":50228,"dst_ip":"192.168.0.10","dst_port":2222,"username":"root","password":"teste","eventid":"cowrie.login.failed","sensor":"misp","uuid":"d74128ea-e868-11f1-8749-000c2980792f","timestamp":"2026-11-25T12:16:23.993200Z","message":"login attempt [root/teste] failed"}
+
+**Log Misp**
+<img width="1026" height="192" alt="image" src="https://github.com/user-attachments/assets/7a845b86-027c-4906-9fda-2129667500a2" />
+
+Wazuh 100602 | agente misp | usuario=root | senha=teste6 | {"session":"ade7f11905a1","protocol":"ssh","src_ip":"192.168.0.20","src_port":55680,"dst_ip":"192.168.0.10","dst_port":2222,"username":"root","password":"teste6","eventid":"cowrie.login.failed","sensor":"misp","uuid":"d74128ea-e868-11f1-8749-000c2980792f","timestamp":"2026-11-25T12:16:36.268480Z","message":"login attempt [root/teste6] failed"}
